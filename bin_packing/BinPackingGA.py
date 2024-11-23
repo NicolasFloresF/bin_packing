@@ -1,37 +1,6 @@
 import random
 import numpy as np
-
-
-def checkCurCapacity(items: list, binsCapacity: list, solution: list):
-    binsCurCapacity = [0] * len(binsCapacity)
-
-    for i in range(len(items)):
-        sum = binsCurCapacity[solution[i]] + items[i]
-        if sum > binsCapacity[solution[i]]:
-            print(sum, binsCapacity[solution[i]], i)
-            print("Invalid solution")
-            break
-        else:
-            binsCurCapacity[solution[i]] = sum
-
-    return binsCurCapacity
-
-
-def first_fit(items, binsCapacity):
-    binsCurCapacity = [0] * len(binsCapacity)
-    solution = []
-    for i in range(len(items)):
-        j = 0
-        while j < len(binsCapacity):
-            if binsCurCapacity[j] + items[i] <= binsCapacity[j]:
-                binsCurCapacity[j] += items[i]
-                solution.append(j)
-                break
-            j += 1
-        if j == len(binsCapacity):
-            print("Invalid solution")
-            break
-    return solution, binsCurCapacity
+import matplotlib.pyplot as plt
 
 
 def random_sampling_generator(items, binsCapacity, sampleSize):
@@ -98,6 +67,20 @@ def fitness_function(binsCurCapacity: list, binsCapacity: list):
     return fitness
 
 
+def pointCrossOver(parent1, parent2, binsCapacity, items):
+    binsCurCapacity = [0] * len(binsCapacity)
+    child = []
+    for i in range(len(parent1)):
+        if i < len(parent1) / 2:
+            child.append(parent1[i])
+            binsCurCapacity[parent1[i]] += items[i]
+        else:
+            child.append(parent2[i])
+            binsCurCapacity[parent2[i]] += items[i]
+
+    return child, binsCurCapacity
+
+
 def UniformCrossOver(parent1, parent2, binsCapacity, items):
     binsCurCapacity = [0] * len(binsCapacity)
     child = []
@@ -127,24 +110,19 @@ def UniformCrossOver(parent1, parent2, binsCapacity, items):
     return child, binsCurCapacity
 
 
-def mutation(child, binsCapacity, items, binsCurCapacity):
+def singlePointMutation(child, binsCapacity, items, binsCurCapacity):
     for i in range(len(child)):
         if random.random() < 0.2:
-            for _ in range(100):
-                randNum = random.randint(0, len(binsCapacity) - 1)
-                if binsCurCapacity[randNum] + items[i] > binsCapacity[randNum]:
-                    randNum = random.randint(0, len(binsCapacity) - 1)
-                else:
-                    binsCurCapacity[child[i]] -= items[i]
-                    binsCurCapacity[randNum] += items[i]
-                    child[i] = randNum
-                    break
+            randNum = random.randint(0, len(binsCapacity) - 1)
+            binsCurCapacity[child[i]] -= items[i]
+            binsCurCapacity[randNum] += items[i]
+            child[i] = randNum
 
     # checkCurCapacity(items, binsCapacity, child)
     return child, binsCurCapacity
 
 
-def selection(sample, fitness_list):
+def tournamentSelection(sample, fitness_list):
     # calculate the probability of each solution to be chosen
     p = np.asarray(fitness_list).astype("float64")
     p /= np.sum(p)
@@ -160,7 +138,7 @@ def selection(sample, fitness_list):
 def main():
     # inputs
     # items = [5, 5, 4, 7, 1, 3]
-    items = [7, 5, 1, 5, 3, 4, 5, 10, 8]
+    items = [7, 5, 1, 5, 3, 4, 5, 10, 8, 3, 2, 5, 1, 4, 3, 7, 4]
     binsCapacity = [10, 10, 15, 10, 15, 12, 10, 10, 10]
 
     # output
@@ -189,13 +167,19 @@ def main():
     #     print(fitness_list[i], sample[i], sampleBinsCurCapacity[i])
 
     # print("-------------------------------------")
+    # x and y axis plot creation
+    x = []
+    bestFit = []
+    worstFit = []
+    for gen in range(5000):
+        if fitness_list[0] == 1:
+            break
 
-    for gen in range(1000):
-        parents = selection(sample, fitness_list)
+        parents = tournamentSelection(sample, fitness_list)
 
         for i in range(int(len(parents) / 2)):
             child, bin = UniformCrossOver(sample[parents[i]], sample[parents[i + 1]], binsCapacity, items)
-            child, bin = mutation(child, binsCapacity, items, bin)
+            child, bin = singlePointMutation(child, binsCapacity, items, bin)
             childFit = fitness_function(bin, binsCapacity)
             # print(child, bin, childFit)
             sample.append(child)
@@ -238,10 +222,16 @@ def main():
             fitness_list[0],
             sample[0],
             sampleBinsCurCapacity[0],
+            overloadPenalty(sampleBinsCurCapacity[0], binsCapacity),
             fitness_list[-1],
             sample[-1],
             sampleBinsCurCapacity[-1],
+            overloadPenalty(sampleBinsCurCapacity[-1], binsCapacity),
         )
+        # plot data insertion
+        x.append(gen)
+        bestFit.append(fitness_list[0])
+        worstFit.append(fitness_list[-1])
 
     # print(len(fitness_list), len(sample), len(sampleBinsCurCapacity))
 
@@ -252,6 +242,12 @@ def main():
     # print(fitness_list)
     # print(sample)
     # print(sampleBinsCurCapacity)
+    plt.plot(x, bestFit, label="Best Fitness")
+    plt.plot(x, worstFit, label="Worst Fitness")
+    plt.legend()
+    plt.xlabel("Generations")
+    plt.ylabel("Fitness")
+    plt.show()
 
 
 if __name__ == "__main__":
