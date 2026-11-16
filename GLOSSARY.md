@@ -78,6 +78,10 @@ _Avoid_: Max bins, number of bins
 A solver that improves a single solution by random neighbour moves, accepting worse ones with a probability that falls as a temperature cools.
 _Avoid_: SA (in prose), annealing
 
+**Temperature Level**:
+A stretch of the simulated annealing at one fixed temperature, during which a fixed number of neighbours are tried before cooling.
+_Avoid_: Epoch, stage
+
 **Fitness**:
 The score that ranks candidate solutions in the genetic algorithms and the simulated annealing; the mean squared fill ratio of the used bins (Falkenauer), reduced by an overload penalty in the Assignment GA.
 _Avoid_: Score, quality
