@@ -42,7 +42,7 @@ max-complexity-allowed = 15
 typeCheckingMode = "standard"
 
 [tool.pytest.ini_options]
-addopts = "--cov=bin_packing --cov-fail-under=80"
+addopts = "--import-mode=importlib --cov=bin_packing --cov-fail-under=80"
 testpaths = ["tests"]
 
 [tool.vulture]
