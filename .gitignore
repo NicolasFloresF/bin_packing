@@ -1,7 +1,36 @@
-dev-docs/
+# Byte-compiled files
 __pycache__/
-.venv/
-.mypy_cache/
+*.py[codz]
+
+# Build output (also used by the quality gate)
+build/
+dist/
+*.egg-info/
+
+# Tests, coverage and tool caches
+.coverage
+.coverage.*
+htmlcov/
 .pytest_cache/
 .ruff_cache/
-.coverage
+.complexipy_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+
+# Project
+dev-docs/
+dev-results/
+data/raw/
+
+# Local agent settings
+.claude/
