@@ -1,0 +1,601 @@
+instance,num_items,capacity,solver,seed,bins,feasible,lower_bound,gap,seconds
+weibull_scaled_n120_c150_s0,120,150,FFD,0,51,True,50,0.02,0.0005
+weibull_scaled_n120_c150_s0,120,150,FFD,1,51,True,50,0.02,0.0005
+weibull_scaled_n120_c150_s0,120,150,FFD,2,51,True,50,0.02,0.0005
+weibull_scaled_n120_c150_s0,120,150,BFD,0,51,True,50,0.02,0.0006
+weibull_scaled_n120_c150_s0,120,150,BFD,1,51,True,50,0.02,0.0006
+weibull_scaled_n120_c150_s0,120,150,BFD,2,51,True,50,0.02,0.0005
+weibull_scaled_n120_c150_s0,120,150,WFD,0,51,True,50,0.02,0.0005
+weibull_scaled_n120_c150_s0,120,150,WFD,1,51,True,50,0.02,0.0006
+weibull_scaled_n120_c150_s0,120,150,WFD,2,51,True,50,0.02,0.0006
+weibull_scaled_n120_c150_s0,120,150,RFD,0,51,True,50,0.02,0.0008
+weibull_scaled_n120_c150_s0,120,150,RFD,1,51,True,50,0.02,0.0007
+weibull_scaled_n120_c150_s0,120,150,RFD,2,51,True,50,0.02,0.0008
+weibull_scaled_n120_c150_s0,120,150,"Assignment GA, tuned",0,52,True,50,0.04,3.7864
+weibull_scaled_n120_c150_s0,120,150,"Assignment GA, tuned",1,52,True,50,0.04,3.6466
+weibull_scaled_n120_c150_s0,120,150,"Assignment GA, tuned",2,52,True,50,0.04,3.9343
+weibull_scaled_n120_c150_s0,120,150,"Assignment GA, original",0,56,False,50,,2.1145
+weibull_scaled_n120_c150_s0,120,150,"Assignment GA, original",1,56,True,50,0.12,2.4396
+weibull_scaled_n120_c150_s0,120,150,"Assignment GA, original",2,56,True,50,0.12,2.4876
+weibull_scaled_n120_c150_s0,120,150,"Permutation GA, random start",0,51,True,50,0.02,27.5459
+weibull_scaled_n120_c150_s0,120,150,"Permutation GA, random start",1,51,True,50,0.02,28.5156
+weibull_scaled_n120_c150_s0,120,150,"Permutation GA, random start",2,51,True,50,0.02,25.9647
+weibull_scaled_n120_c150_s0,120,150,"Permutation GA, FFD start",0,50,True,50,0.0,3.3583
+weibull_scaled_n120_c150_s0,120,150,"Permutation GA, FFD start",1,50,True,50,0.0,2.9661
+weibull_scaled_n120_c150_s0,120,150,"Permutation GA, FFD start",2,50,True,50,0.0,0.9525
+weibull_scaled_n120_c150_s0,120,150,"SA, cooling",0,50,True,50,0.0,0.174
+weibull_scaled_n120_c150_s0,120,150,"SA, cooling",1,51,True,50,0.02,1.3582
+weibull_scaled_n120_c150_s0,120,150,"SA, cooling",2,51,True,50,0.02,1.389
+weibull_scaled_n120_c150_s0,120,150,"SA, greedy",0,50,True,50,0.0,0.0743
+weibull_scaled_n120_c150_s0,120,150,"SA, greedy",1,50,True,50,0.0,0.0896
+weibull_scaled_n120_c150_s0,120,150,"SA, greedy",2,50,True,50,0.0,0.1273
+weibull_scaled_n120_c150_s1,120,150,FFD,0,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s1,120,150,FFD,1,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s1,120,150,FFD,2,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s1,120,150,BFD,0,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s1,120,150,BFD,1,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s1,120,150,BFD,2,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s1,120,150,WFD,0,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s1,120,150,WFD,1,50,True,49,0.02040816326530612,0.0006
+weibull_scaled_n120_c150_s1,120,150,WFD,2,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s1,120,150,RFD,0,50,True,49,0.02040816326530612,0.0007
+weibull_scaled_n120_c150_s1,120,150,RFD,1,50,True,49,0.02040816326530612,0.0008
+weibull_scaled_n120_c150_s1,120,150,RFD,2,50,True,49,0.02040816326530612,0.0007
+weibull_scaled_n120_c150_s1,120,150,"Assignment GA, tuned",0,52,True,49,0.061224489795918366,3.6332
+weibull_scaled_n120_c150_s1,120,150,"Assignment GA, tuned",1,52,True,49,0.061224489795918366,3.6577
+weibull_scaled_n120_c150_s1,120,150,"Assignment GA, tuned",2,51,True,49,0.04081632653061224,3.8777
+weibull_scaled_n120_c150_s1,120,150,"Assignment GA, original",0,54,False,49,,2.2218
+weibull_scaled_n120_c150_s1,120,150,"Assignment GA, original",1,54,False,49,,2.1219
+weibull_scaled_n120_c150_s1,120,150,"Assignment GA, original",2,54,False,49,,2.5372
+weibull_scaled_n120_c150_s1,120,150,"Permutation GA, random start",0,50,True,49,0.02040816326530612,27.4886
+weibull_scaled_n120_c150_s1,120,150,"Permutation GA, random start",1,50,True,49,0.02040816326530612,23.5212
+weibull_scaled_n120_c150_s1,120,150,"Permutation GA, random start",2,50,True,49,0.02040816326530612,27.2733
+weibull_scaled_n120_c150_s1,120,150,"Permutation GA, FFD start",0,50,True,49,0.02040816326530612,29.8121
+weibull_scaled_n120_c150_s1,120,150,"Permutation GA, FFD start",1,49,True,49,0.0,7.0453
+weibull_scaled_n120_c150_s1,120,150,"Permutation GA, FFD start",2,49,True,49,0.0,17.6854
+weibull_scaled_n120_c150_s1,120,150,"SA, cooling",0,49,True,49,0.0,0.1017
+weibull_scaled_n120_c150_s1,120,150,"SA, cooling",1,49,True,49,0.0,0.0641
+weibull_scaled_n120_c150_s1,120,150,"SA, cooling",2,49,True,49,0.0,0.0431
+weibull_scaled_n120_c150_s1,120,150,"SA, greedy",0,49,True,49,0.0,0.0862
+weibull_scaled_n120_c150_s1,120,150,"SA, greedy",1,49,True,49,0.0,0.0467
+weibull_scaled_n120_c150_s1,120,150,"SA, greedy",2,49,True,49,0.0,0.0395
+weibull_scaled_n120_c150_s2,120,150,FFD,0,49,True,48,0.020833333333333332,0.0005
+weibull_scaled_n120_c150_s2,120,150,FFD,1,49,True,48,0.020833333333333332,0.0005
+weibull_scaled_n120_c150_s2,120,150,FFD,2,49,True,48,0.020833333333333332,0.0005
+weibull_scaled_n120_c150_s2,120,150,BFD,0,49,True,48,0.020833333333333332,0.0005
+weibull_scaled_n120_c150_s2,120,150,BFD,1,49,True,48,0.020833333333333332,0.0005
+weibull_scaled_n120_c150_s2,120,150,BFD,2,49,True,48,0.020833333333333332,0.0011
+weibull_scaled_n120_c150_s2,120,150,WFD,0,49,True,48,0.020833333333333332,0.0005
+weibull_scaled_n120_c150_s2,120,150,WFD,1,49,True,48,0.020833333333333332,0.0005
+weibull_scaled_n120_c150_s2,120,150,WFD,2,49,True,48,0.020833333333333332,0.0005
+weibull_scaled_n120_c150_s2,120,150,RFD,0,49,True,48,0.020833333333333332,0.0008
+weibull_scaled_n120_c150_s2,120,150,RFD,1,49,True,48,0.020833333333333332,0.0007
+weibull_scaled_n120_c150_s2,120,150,RFD,2,49,True,48,0.020833333333333332,0.0008
+weibull_scaled_n120_c150_s2,120,150,"Assignment GA, tuned",0,50,True,48,0.041666666666666664,4.2238
+weibull_scaled_n120_c150_s2,120,150,"Assignment GA, tuned",1,50,True,48,0.041666666666666664,3.6711
+weibull_scaled_n120_c150_s2,120,150,"Assignment GA, tuned",2,50,True,48,0.041666666666666664,4.3505
+weibull_scaled_n120_c150_s2,120,150,"Assignment GA, original",0,53,False,48,,2.1876
+weibull_scaled_n120_c150_s2,120,150,"Assignment GA, original",1,53,False,48,,2.134
+weibull_scaled_n120_c150_s2,120,150,"Assignment GA, original",2,53,False,48,,2.2377
+weibull_scaled_n120_c150_s2,120,150,"Permutation GA, random start",0,48,True,48,0.0,23.271
+weibull_scaled_n120_c150_s2,120,150,"Permutation GA, random start",1,49,True,48,0.020833333333333332,23.9365
+weibull_scaled_n120_c150_s2,120,150,"Permutation GA, random start",2,49,True,48,0.020833333333333332,23.7897
+weibull_scaled_n120_c150_s2,120,150,"Permutation GA, FFD start",0,48,True,48,0.0,2.2022
+weibull_scaled_n120_c150_s2,120,150,"Permutation GA, FFD start",1,48,True,48,0.0,3.1765
+weibull_scaled_n120_c150_s2,120,150,"Permutation GA, FFD start",2,49,True,48,0.020833333333333332,25.9195
+weibull_scaled_n120_c150_s2,120,150,"SA, cooling",0,48,True,48,0.0,0.0436
+weibull_scaled_n120_c150_s2,120,150,"SA, cooling",1,48,True,48,0.0,0.0709
+weibull_scaled_n120_c150_s2,120,150,"SA, cooling",2,48,True,48,0.0,0.0577
+weibull_scaled_n120_c150_s2,120,150,"SA, greedy",0,48,True,48,0.0,0.0517
+weibull_scaled_n120_c150_s2,120,150,"SA, greedy",1,48,True,48,0.0,0.0543
+weibull_scaled_n120_c150_s2,120,150,"SA, greedy",2,49,True,48,0.020833333333333332,1.3893
+weibull_scaled_n120_c150_s3,120,150,FFD,0,52,True,51,0.0196078431372549,0.0006
+weibull_scaled_n120_c150_s3,120,150,FFD,1,52,True,51,0.0196078431372549,0.0005
+weibull_scaled_n120_c150_s3,120,150,FFD,2,52,True,51,0.0196078431372549,0.0005
+weibull_scaled_n120_c150_s3,120,150,BFD,0,52,True,51,0.0196078431372549,0.0006
+weibull_scaled_n120_c150_s3,120,150,BFD,1,52,True,51,0.0196078431372549,0.0005
+weibull_scaled_n120_c150_s3,120,150,BFD,2,52,True,51,0.0196078431372549,0.0006
+weibull_scaled_n120_c150_s3,120,150,WFD,0,52,True,51,0.0196078431372549,0.0005
+weibull_scaled_n120_c150_s3,120,150,WFD,1,52,True,51,0.0196078431372549,0.0005
+weibull_scaled_n120_c150_s3,120,150,WFD,2,52,True,51,0.0196078431372549,0.0005
+weibull_scaled_n120_c150_s3,120,150,RFD,0,52,True,51,0.0196078431372549,0.0008
+weibull_scaled_n120_c150_s3,120,150,RFD,1,52,True,51,0.0196078431372549,0.0008
+weibull_scaled_n120_c150_s3,120,150,RFD,2,52,True,51,0.0196078431372549,0.0007
+weibull_scaled_n120_c150_s3,120,150,"Assignment GA, tuned",0,53,True,51,0.0392156862745098,3.8842
+weibull_scaled_n120_c150_s3,120,150,"Assignment GA, tuned",1,53,True,51,0.0392156862745098,3.9839
+weibull_scaled_n120_c150_s3,120,150,"Assignment GA, tuned",2,53,True,51,0.0392156862745098,3.728
+weibull_scaled_n120_c150_s3,120,150,"Assignment GA, original",0,57,False,51,,2.239
+weibull_scaled_n120_c150_s3,120,150,"Assignment GA, original",1,57,False,51,,2.3026
+weibull_scaled_n120_c150_s3,120,150,"Assignment GA, original",2,57,False,51,,2.2976
+weibull_scaled_n120_c150_s3,120,150,"Permutation GA, random start",0,52,True,51,0.0196078431372549,24.7076
+weibull_scaled_n120_c150_s3,120,150,"Permutation GA, random start",1,52,True,51,0.0196078431372549,24.6971
+weibull_scaled_n120_c150_s3,120,150,"Permutation GA, random start",2,52,True,51,0.0196078431372549,24.8077
+weibull_scaled_n120_c150_s3,120,150,"Permutation GA, FFD start",0,52,True,51,0.0196078431372549,27.4255
+weibull_scaled_n120_c150_s3,120,150,"Permutation GA, FFD start",1,52,True,51,0.0196078431372549,27.5592
+weibull_scaled_n120_c150_s3,120,150,"Permutation GA, FFD start",2,52,True,51,0.0196078431372549,27.5503
+weibull_scaled_n120_c150_s3,120,150,"SA, cooling",0,52,True,51,0.0196078431372549,1.4116
+weibull_scaled_n120_c150_s3,120,150,"SA, cooling",1,52,True,51,0.0196078431372549,1.3963
+weibull_scaled_n120_c150_s3,120,150,"SA, cooling",2,52,True,51,0.0196078431372549,1.3947
+weibull_scaled_n120_c150_s3,120,150,"SA, greedy",0,52,True,51,0.0196078431372549,1.4001
+weibull_scaled_n120_c150_s3,120,150,"SA, greedy",1,52,True,51,0.0196078431372549,1.3993
+weibull_scaled_n120_c150_s3,120,150,"SA, greedy",2,52,True,51,0.0196078431372549,1.4341
+weibull_scaled_n120_c150_s4,120,150,FFD,0,51,True,50,0.02,0.0006
+weibull_scaled_n120_c150_s4,120,150,FFD,1,51,True,50,0.02,0.0005
+weibull_scaled_n120_c150_s4,120,150,FFD,2,51,True,50,0.02,0.0005
+weibull_scaled_n120_c150_s4,120,150,BFD,0,51,True,50,0.02,0.0005
+weibull_scaled_n120_c150_s4,120,150,BFD,1,51,True,50,0.02,0.0005
+weibull_scaled_n120_c150_s4,120,150,BFD,2,51,True,50,0.02,0.0006
+weibull_scaled_n120_c150_s4,120,150,WFD,0,51,True,50,0.02,0.0005
+weibull_scaled_n120_c150_s4,120,150,WFD,1,51,True,50,0.02,0.0005
+weibull_scaled_n120_c150_s4,120,150,WFD,2,51,True,50,0.02,0.0005
+weibull_scaled_n120_c150_s4,120,150,RFD,0,51,True,50,0.02,0.0007
+weibull_scaled_n120_c150_s4,120,150,RFD,1,51,True,50,0.02,0.0008
+weibull_scaled_n120_c150_s4,120,150,RFD,2,51,True,50,0.02,0.0008
+weibull_scaled_n120_c150_s4,120,150,"Assignment GA, tuned",0,53,True,50,0.06,3.8189
+weibull_scaled_n120_c150_s4,120,150,"Assignment GA, tuned",1,52,True,50,0.04,3.9222
+weibull_scaled_n120_c150_s4,120,150,"Assignment GA, tuned",2,52,True,50,0.04,3.9881
+weibull_scaled_n120_c150_s4,120,150,"Assignment GA, original",0,56,False,50,,2.3226
+weibull_scaled_n120_c150_s4,120,150,"Assignment GA, original",1,56,False,50,,2.2758
+weibull_scaled_n120_c150_s4,120,150,"Assignment GA, original",2,56,False,50,,2.3998
+weibull_scaled_n120_c150_s4,120,150,"Permutation GA, random start",0,51,True,50,0.02,24.5556
+weibull_scaled_n120_c150_s4,120,150,"Permutation GA, random start",1,51,True,50,0.02,24.6825
+weibull_scaled_n120_c150_s4,120,150,"Permutation GA, random start",2,51,True,50,0.02,24.3095
+weibull_scaled_n120_c150_s4,120,150,"Permutation GA, FFD start",0,51,True,50,0.02,27.3926
+weibull_scaled_n120_c150_s4,120,150,"Permutation GA, FFD start",1,51,True,50,0.02,27.5744
+weibull_scaled_n120_c150_s4,120,150,"Permutation GA, FFD start",2,51,True,50,0.02,26.7671
+weibull_scaled_n120_c150_s4,120,150,"SA, cooling",0,50,True,50,0.0,0.0917
+weibull_scaled_n120_c150_s4,120,150,"SA, cooling",1,50,True,50,0.0,0.3522
+weibull_scaled_n120_c150_s4,120,150,"SA, cooling",2,51,True,50,0.02,1.4733
+weibull_scaled_n120_c150_s4,120,150,"SA, greedy",0,50,True,50,0.0,0.0756
+weibull_scaled_n120_c150_s4,120,150,"SA, greedy",1,50,True,50,0.0,0.0615
+weibull_scaled_n120_c150_s4,120,150,"SA, greedy",2,50,True,50,0.0,0.0447
+weibull_scaled_n120_c150_s5,120,150,FFD,0,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s5,120,150,FFD,1,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s5,120,150,FFD,2,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s5,120,150,BFD,0,50,True,49,0.02040816326530612,0.0006
+weibull_scaled_n120_c150_s5,120,150,BFD,1,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s5,120,150,BFD,2,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s5,120,150,WFD,0,50,True,49,0.02040816326530612,0.0006
+weibull_scaled_n120_c150_s5,120,150,WFD,1,50,True,49,0.02040816326530612,0.0006
+weibull_scaled_n120_c150_s5,120,150,WFD,2,50,True,49,0.02040816326530612,0.0006
+weibull_scaled_n120_c150_s5,120,150,RFD,0,50,True,49,0.02040816326530612,0.0008
+weibull_scaled_n120_c150_s5,120,150,RFD,1,50,True,49,0.02040816326530612,0.0007
+weibull_scaled_n120_c150_s5,120,150,RFD,2,50,True,49,0.02040816326530612,0.0007
+weibull_scaled_n120_c150_s5,120,150,"Assignment GA, tuned",0,51,True,49,0.04081632653061224,4.0053
+weibull_scaled_n120_c150_s5,120,150,"Assignment GA, tuned",1,51,True,49,0.04081632653061224,3.9164
+weibull_scaled_n120_c150_s5,120,150,"Assignment GA, tuned",2,51,True,49,0.04081632653061224,4.0218
+weibull_scaled_n120_c150_s5,120,150,"Assignment GA, original",0,54,False,49,,2.3336
+weibull_scaled_n120_c150_s5,120,150,"Assignment GA, original",1,54,False,49,,2.3925
+weibull_scaled_n120_c150_s5,120,150,"Assignment GA, original",2,54,False,49,,2.3046
+weibull_scaled_n120_c150_s5,120,150,"Permutation GA, random start",0,50,True,49,0.02040816326530612,24.5629
+weibull_scaled_n120_c150_s5,120,150,"Permutation GA, random start",1,50,True,49,0.02040816326530612,24.8022
+weibull_scaled_n120_c150_s5,120,150,"Permutation GA, random start",2,50,True,49,0.02040816326530612,25.27
+weibull_scaled_n120_c150_s5,120,150,"Permutation GA, FFD start",0,50,True,49,0.02040816326530612,27.4631
+weibull_scaled_n120_c150_s5,120,150,"Permutation GA, FFD start",1,50,True,49,0.02040816326530612,27.5739
+weibull_scaled_n120_c150_s5,120,150,"Permutation GA, FFD start",2,50,True,49,0.02040816326530612,28.047
+weibull_scaled_n120_c150_s5,120,150,"SA, cooling",0,49,True,49,0.0,0.71
+weibull_scaled_n120_c150_s5,120,150,"SA, cooling",1,50,True,49,0.02040816326530612,1.4307
+weibull_scaled_n120_c150_s5,120,150,"SA, cooling",2,49,True,49,0.0,0.4429
+weibull_scaled_n120_c150_s5,120,150,"SA, greedy",0,49,True,49,0.0,0.3481
+weibull_scaled_n120_c150_s5,120,150,"SA, greedy",1,49,True,49,0.0,0.1522
+weibull_scaled_n120_c150_s5,120,150,"SA, greedy",2,49,True,49,0.0,0.236
+weibull_scaled_n120_c150_s6,120,150,FFD,0,50,True,50,0.0,0.0006
+weibull_scaled_n120_c150_s6,120,150,FFD,1,50,True,50,0.0,0.0005
+weibull_scaled_n120_c150_s6,120,150,FFD,2,50,True,50,0.0,0.0005
+weibull_scaled_n120_c150_s6,120,150,BFD,0,50,True,50,0.0,0.0017
+weibull_scaled_n120_c150_s6,120,150,BFD,1,50,True,50,0.0,0.0006
+weibull_scaled_n120_c150_s6,120,150,BFD,2,50,True,50,0.0,0.0006
+weibull_scaled_n120_c150_s6,120,150,WFD,0,51,True,50,0.02,0.0006
+weibull_scaled_n120_c150_s6,120,150,WFD,1,51,True,50,0.02,0.0006
+weibull_scaled_n120_c150_s6,120,150,WFD,2,51,True,50,0.02,0.0005
+weibull_scaled_n120_c150_s6,120,150,RFD,0,51,True,50,0.02,0.0008
+weibull_scaled_n120_c150_s6,120,150,RFD,1,51,True,50,0.02,0.0007
+weibull_scaled_n120_c150_s6,120,150,RFD,2,51,True,50,0.02,0.0008
+weibull_scaled_n120_c150_s6,120,150,"Assignment GA, tuned",0,51,True,50,0.02,3.9192
+weibull_scaled_n120_c150_s6,120,150,"Assignment GA, tuned",1,52,True,50,0.04,3.938
+weibull_scaled_n120_c150_s6,120,150,"Assignment GA, tuned",2,52,True,50,0.04,3.9456
+weibull_scaled_n120_c150_s6,120,150,"Assignment GA, original",0,56,False,50,,2.3231
+weibull_scaled_n120_c150_s6,120,150,"Assignment GA, original",1,56,False,50,,2.3314
+weibull_scaled_n120_c150_s6,120,150,"Assignment GA, original",2,56,False,50,,2.3883
+weibull_scaled_n120_c150_s6,120,150,"Permutation GA, random start",0,50,True,50,0.0,13.8281
+weibull_scaled_n120_c150_s6,120,150,"Permutation GA, random start",1,50,True,50,0.0,7.9149
+weibull_scaled_n120_c150_s6,120,150,"Permutation GA, random start",2,50,True,50,0.0,9.8452
+weibull_scaled_n120_c150_s6,120,150,"Permutation GA, FFD start",0,50,True,50,0.0,0.0244
+weibull_scaled_n120_c150_s6,120,150,"Permutation GA, FFD start",1,50,True,50,0.0,0.0273
+weibull_scaled_n120_c150_s6,120,150,"Permutation GA, FFD start",2,50,True,50,0.0,0.0244
+weibull_scaled_n120_c150_s6,120,150,"SA, cooling",0,50,True,50,0.0,0.055
+weibull_scaled_n120_c150_s6,120,150,"SA, cooling",1,50,True,50,0.0,0.0419
+weibull_scaled_n120_c150_s6,120,150,"SA, cooling",2,50,True,50,0.0,0.0256
+weibull_scaled_n120_c150_s6,120,150,"SA, greedy",0,50,True,50,0.0,0.0288
+weibull_scaled_n120_c150_s6,120,150,"SA, greedy",1,50,True,50,0.0,0.0313
+weibull_scaled_n120_c150_s6,120,150,"SA, greedy",2,50,True,50,0.0,0.0262
+weibull_scaled_n120_c150_s7,120,150,FFD,0,49,True,49,0.0,0.0005
+weibull_scaled_n120_c150_s7,120,150,FFD,1,49,True,49,0.0,0.0005
+weibull_scaled_n120_c150_s7,120,150,FFD,2,49,True,49,0.0,0.0005
+weibull_scaled_n120_c150_s7,120,150,BFD,0,49,True,49,0.0,0.0005
+weibull_scaled_n120_c150_s7,120,150,BFD,1,49,True,49,0.0,0.0005
+weibull_scaled_n120_c150_s7,120,150,BFD,2,49,True,49,0.0,0.0005
+weibull_scaled_n120_c150_s7,120,150,WFD,0,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s7,120,150,WFD,1,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s7,120,150,WFD,2,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s7,120,150,RFD,0,50,True,49,0.02040816326530612,0.0007
+weibull_scaled_n120_c150_s7,120,150,RFD,1,50,True,49,0.02040816326530612,0.0008
+weibull_scaled_n120_c150_s7,120,150,RFD,2,49,True,49,0.0,0.0008
+weibull_scaled_n120_c150_s7,120,150,"Assignment GA, tuned",0,51,True,49,0.04081632653061224,3.8421
+weibull_scaled_n120_c150_s7,120,150,"Assignment GA, tuned",1,51,True,49,0.04081632653061224,3.8777
+weibull_scaled_n120_c150_s7,120,150,"Assignment GA, tuned",2,50,True,49,0.02040816326530612,3.956
+weibull_scaled_n120_c150_s7,120,150,"Assignment GA, original",0,54,False,49,,2.4213
+weibull_scaled_n120_c150_s7,120,150,"Assignment GA, original",1,54,False,49,,2.2923
+weibull_scaled_n120_c150_s7,120,150,"Assignment GA, original",2,54,False,49,,2.282
+weibull_scaled_n120_c150_s7,120,150,"Permutation GA, random start",0,49,True,49,0.0,13.0504
+weibull_scaled_n120_c150_s7,120,150,"Permutation GA, random start",1,49,True,49,0.0,5.7612
+weibull_scaled_n120_c150_s7,120,150,"Permutation GA, random start",2,49,True,49,0.0,9.6762
+weibull_scaled_n120_c150_s7,120,150,"Permutation GA, FFD start",0,49,True,49,0.0,0.0258
+weibull_scaled_n120_c150_s7,120,150,"Permutation GA, FFD start",1,49,True,49,0.0,0.026
+weibull_scaled_n120_c150_s7,120,150,"Permutation GA, FFD start",2,49,True,49,0.0,0.0245
+weibull_scaled_n120_c150_s7,120,150,"SA, cooling",0,49,True,49,0.0,0.1081
+weibull_scaled_n120_c150_s7,120,150,"SA, cooling",1,49,True,49,0.0,0.0378
+weibull_scaled_n120_c150_s7,120,150,"SA, cooling",2,49,True,49,0.0,0.0799
+weibull_scaled_n120_c150_s7,120,150,"SA, greedy",0,49,True,49,0.0,0.0585
+weibull_scaled_n120_c150_s7,120,150,"SA, greedy",1,49,True,49,0.0,0.0252
+weibull_scaled_n120_c150_s7,120,150,"SA, greedy",2,49,True,49,0.0,0.0385
+weibull_scaled_n120_c150_s8,120,150,FFD,0,47,True,47,0.0,0.0005
+weibull_scaled_n120_c150_s8,120,150,FFD,1,47,True,47,0.0,0.0005
+weibull_scaled_n120_c150_s8,120,150,FFD,2,47,True,47,0.0,0.0005
+weibull_scaled_n120_c150_s8,120,150,BFD,0,47,True,47,0.0,0.0005
+weibull_scaled_n120_c150_s8,120,150,BFD,1,47,True,47,0.0,0.0005
+weibull_scaled_n120_c150_s8,120,150,BFD,2,47,True,47,0.0,0.0005
+weibull_scaled_n120_c150_s8,120,150,WFD,0,48,True,47,0.02127659574468085,0.0006
+weibull_scaled_n120_c150_s8,120,150,WFD,1,48,True,47,0.02127659574468085,0.0005
+weibull_scaled_n120_c150_s8,120,150,WFD,2,48,True,47,0.02127659574468085,0.0005
+weibull_scaled_n120_c150_s8,120,150,RFD,0,47,True,47,0.0,0.0008
+weibull_scaled_n120_c150_s8,120,150,RFD,1,48,True,47,0.02127659574468085,0.0008
+weibull_scaled_n120_c150_s8,120,150,RFD,2,48,True,47,0.02127659574468085,0.0008
+weibull_scaled_n120_c150_s8,120,150,"Assignment GA, tuned",0,50,True,47,0.06382978723404255,3.8299
+weibull_scaled_n120_c150_s8,120,150,"Assignment GA, tuned",1,49,True,47,0.0425531914893617,4.0175
+weibull_scaled_n120_c150_s8,120,150,"Assignment GA, tuned",2,48,True,47,0.02127659574468085,3.8275
+weibull_scaled_n120_c150_s8,120,150,"Assignment GA, original",0,52,False,47,,2.4574
+weibull_scaled_n120_c150_s8,120,150,"Assignment GA, original",1,52,False,47,,2.3353
+weibull_scaled_n120_c150_s8,120,150,"Assignment GA, original",2,52,False,47,,2.357
+weibull_scaled_n120_c150_s8,120,150,"Permutation GA, random start",0,47,True,47,0.0,4.9901
+weibull_scaled_n120_c150_s8,120,150,"Permutation GA, random start",1,47,True,47,0.0,13.9093
+weibull_scaled_n120_c150_s8,120,150,"Permutation GA, random start",2,47,True,47,0.0,14.1116
+weibull_scaled_n120_c150_s8,120,150,"Permutation GA, FFD start",0,47,True,47,0.0,0.0263
+weibull_scaled_n120_c150_s8,120,150,"Permutation GA, FFD start",1,47,True,47,0.0,0.0237
+weibull_scaled_n120_c150_s8,120,150,"Permutation GA, FFD start",2,47,True,47,0.0,0.024
+weibull_scaled_n120_c150_s8,120,150,"SA, cooling",0,47,True,47,0.0,0.0309
+weibull_scaled_n120_c150_s8,120,150,"SA, cooling",1,47,True,47,0.0,0.0412
+weibull_scaled_n120_c150_s8,120,150,"SA, cooling",2,47,True,47,0.0,0.0352
+weibull_scaled_n120_c150_s8,120,150,"SA, greedy",0,47,True,47,0.0,0.0295
+weibull_scaled_n120_c150_s8,120,150,"SA, greedy",1,47,True,47,0.0,0.0807
+weibull_scaled_n120_c150_s8,120,150,"SA, greedy",2,47,True,47,0.0,0.0353
+weibull_scaled_n120_c150_s9,120,150,FFD,0,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s9,120,150,FFD,1,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s9,120,150,FFD,2,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s9,120,150,BFD,0,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s9,120,150,BFD,1,50,True,49,0.02040816326530612,0.0006
+weibull_scaled_n120_c150_s9,120,150,BFD,2,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s9,120,150,WFD,0,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s9,120,150,WFD,1,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s9,120,150,WFD,2,50,True,49,0.02040816326530612,0.0005
+weibull_scaled_n120_c150_s9,120,150,RFD,0,50,True,49,0.02040816326530612,0.0008
+weibull_scaled_n120_c150_s9,120,150,RFD,1,50,True,49,0.02040816326530612,0.0008
+weibull_scaled_n120_c150_s9,120,150,RFD,2,50,True,49,0.02040816326530612,0.0008
+weibull_scaled_n120_c150_s9,120,150,"Assignment GA, tuned",0,52,True,49,0.061224489795918366,4.0814
+weibull_scaled_n120_c150_s9,120,150,"Assignment GA, tuned",1,51,True,49,0.04081632653061224,3.9881
+weibull_scaled_n120_c150_s9,120,150,"Assignment GA, tuned",2,51,True,49,0.04081632653061224,3.9922
+weibull_scaled_n120_c150_s9,120,150,"Assignment GA, original",0,54,False,49,,2.2903
+weibull_scaled_n120_c150_s9,120,150,"Assignment GA, original",1,54,False,49,,2.3668
+weibull_scaled_n120_c150_s9,120,150,"Assignment GA, original",2,54,False,49,,2.373
+weibull_scaled_n120_c150_s9,120,150,"Permutation GA, random start",0,50,True,49,0.02040816326530612,25.4131
+weibull_scaled_n120_c150_s9,120,150,"Permutation GA, random start",1,50,True,49,0.02040816326530612,24.7253
+weibull_scaled_n120_c150_s9,120,150,"Permutation GA, random start",2,50,True,49,0.02040816326530612,24.9153
+weibull_scaled_n120_c150_s9,120,150,"Permutation GA, FFD start",0,50,True,49,0.02040816326530612,26.8824
+weibull_scaled_n120_c150_s9,120,150,"Permutation GA, FFD start",1,50,True,49,0.02040816326530612,26.8286
+weibull_scaled_n120_c150_s9,120,150,"Permutation GA, FFD start",2,49,True,49,0.0,7.6864
+weibull_scaled_n120_c150_s9,120,150,"SA, cooling",0,50,True,49,0.02040816326530612,1.4294
+weibull_scaled_n120_c150_s9,120,150,"SA, cooling",1,50,True,49,0.02040816326530612,1.4609
+weibull_scaled_n120_c150_s9,120,150,"SA, cooling",2,49,True,49,0.0,0.0722
+weibull_scaled_n120_c150_s9,120,150,"SA, greedy",0,50,True,49,0.02040816326530612,1.4643
+weibull_scaled_n120_c150_s9,120,150,"SA, greedy",1,49,True,49,0.0,0.0932
+weibull_scaled_n120_c150_s9,120,150,"SA, greedy",2,49,True,49,0.0,0.0795
+weibull_scaled_n500_c150_s0,500,150,FFD,0,210,True,209,0.004784688995215311,0.0058
+weibull_scaled_n500_c150_s0,500,150,FFD,1,210,True,209,0.004784688995215311,0.0058
+weibull_scaled_n500_c150_s0,500,150,FFD,2,210,True,209,0.004784688995215311,0.0056
+weibull_scaled_n500_c150_s0,500,150,BFD,0,210,True,209,0.004784688995215311,0.006
+weibull_scaled_n500_c150_s0,500,150,BFD,1,210,True,209,0.004784688995215311,0.0059
+weibull_scaled_n500_c150_s0,500,150,BFD,2,210,True,209,0.004784688995215311,0.006
+weibull_scaled_n500_c150_s0,500,150,WFD,0,210,True,209,0.004784688995215311,0.0059
+weibull_scaled_n500_c150_s0,500,150,WFD,1,210,True,209,0.004784688995215311,0.006
+weibull_scaled_n500_c150_s0,500,150,WFD,2,210,True,209,0.004784688995215311,0.0058
+weibull_scaled_n500_c150_s0,500,150,RFD,0,210,True,209,0.004784688995215311,0.0067
+weibull_scaled_n500_c150_s0,500,150,RFD,1,210,True,209,0.004784688995215311,0.0067
+weibull_scaled_n500_c150_s0,500,150,RFD,2,210,True,209,0.004784688995215311,0.0068
+weibull_scaled_n500_c150_s0,500,150,"Assignment GA, tuned",0,228,False,209,,9.7145
+weibull_scaled_n500_c150_s0,500,150,"Assignment GA, tuned",1,226,False,209,,9.4483
+weibull_scaled_n500_c150_s0,500,150,"Assignment GA, tuned",2,225,False,209,,9.8686
+weibull_scaled_n500_c150_s0,500,150,"Assignment GA, original",0,230,False,209,,6.5114
+weibull_scaled_n500_c150_s0,500,150,"Assignment GA, original",1,230,False,209,,6.4691
+weibull_scaled_n500_c150_s0,500,150,"Assignment GA, original",2,230,False,209,,6.6651
+weibull_scaled_n500_c150_s0,500,150,"Permutation GA, random start",0,212,True,209,0.014354066985645933,236.5566
+weibull_scaled_n500_c150_s0,500,150,"Permutation GA, random start",1,213,True,209,0.019138755980861243,238.1415
+weibull_scaled_n500_c150_s0,500,150,"Permutation GA, random start",2,213,True,209,0.019138755980861243,236.7155
+weibull_scaled_n500_c150_s0,500,150,"Permutation GA, FFD start",0,210,True,209,0.004784688995215311,290.9039
+weibull_scaled_n500_c150_s0,500,150,"Permutation GA, FFD start",1,209,True,209,0.0,39.06
+weibull_scaled_n500_c150_s0,500,150,"Permutation GA, FFD start",2,210,True,209,0.004784688995215311,297.0918
+weibull_scaled_n500_c150_s0,500,150,"SA, cooling",0,210,True,209,0.004784688995215311,1.5573
+weibull_scaled_n500_c150_s0,500,150,"SA, cooling",1,210,True,209,0.004784688995215311,1.6005
+weibull_scaled_n500_c150_s0,500,150,"SA, cooling",2,209,True,209,0.0,1.178
+weibull_scaled_n500_c150_s0,500,150,"SA, greedy",0,210,True,209,0.004784688995215311,1.5205
+weibull_scaled_n500_c150_s0,500,150,"SA, greedy",1,210,True,209,0.004784688995215311,1.516
+weibull_scaled_n500_c150_s0,500,150,"SA, greedy",2,209,True,209,0.0,0.782
+weibull_scaled_n500_c150_s1,500,150,FFD,0,200,True,199,0.005025125628140704,0.0054
+weibull_scaled_n500_c150_s1,500,150,FFD,1,200,True,199,0.005025125628140704,0.0055
+weibull_scaled_n500_c150_s1,500,150,FFD,2,200,True,199,0.005025125628140704,0.0054
+weibull_scaled_n500_c150_s1,500,150,BFD,0,200,True,199,0.005025125628140704,0.0056
+weibull_scaled_n500_c150_s1,500,150,BFD,1,200,True,199,0.005025125628140704,0.0056
+weibull_scaled_n500_c150_s1,500,150,BFD,2,200,True,199,0.005025125628140704,0.0057
+weibull_scaled_n500_c150_s1,500,150,WFD,0,200,True,199,0.005025125628140704,0.0066
+weibull_scaled_n500_c150_s1,500,150,WFD,1,200,True,199,0.005025125628140704,0.0058
+weibull_scaled_n500_c150_s1,500,150,WFD,2,200,True,199,0.005025125628140704,0.0055
+weibull_scaled_n500_c150_s1,500,150,RFD,0,200,True,199,0.005025125628140704,0.0083
+weibull_scaled_n500_c150_s1,500,150,RFD,1,200,True,199,0.005025125628140704,0.0066
+weibull_scaled_n500_c150_s1,500,150,RFD,2,200,True,199,0.005025125628140704,0.0066
+weibull_scaled_n500_c150_s1,500,150,"Assignment GA, tuned",0,217,True,199,0.09045226130653267,9.4676
+weibull_scaled_n500_c150_s1,500,150,"Assignment GA, tuned",1,214,True,199,0.07537688442211055,9.7154
+weibull_scaled_n500_c150_s1,500,150,"Assignment GA, tuned",2,215,False,199,,9.4057
+weibull_scaled_n500_c150_s1,500,150,"Assignment GA, original",0,219,False,199,,6.448
+weibull_scaled_n500_c150_s1,500,150,"Assignment GA, original",1,219,False,199,,6.4528
+weibull_scaled_n500_c150_s1,500,150,"Assignment GA, original",2,219,False,199,,6.3599
+weibull_scaled_n500_c150_s1,500,150,"Permutation GA, random start",0,202,True,199,0.01507537688442211,231.4672
+weibull_scaled_n500_c150_s1,500,150,"Permutation GA, random start",1,202,True,199,0.01507537688442211,230.264
+weibull_scaled_n500_c150_s1,500,150,"Permutation GA, random start",2,202,True,199,0.01507537688442211,227.2243
+weibull_scaled_n500_c150_s1,500,150,"Permutation GA, FFD start",0,199,True,199,0.0,23.4889
+weibull_scaled_n500_c150_s1,500,150,"Permutation GA, FFD start",1,199,True,199,0.0,17.1656
+weibull_scaled_n500_c150_s1,500,150,"Permutation GA, FFD start",2,199,True,199,0.0,79.2924
+weibull_scaled_n500_c150_s1,500,150,"SA, cooling",0,199,True,199,0.0,0.6907
+weibull_scaled_n500_c150_s1,500,150,"SA, cooling",1,199,True,199,0.0,0.9361
+weibull_scaled_n500_c150_s1,500,150,"SA, cooling",2,199,True,199,0.0,0.8502
+weibull_scaled_n500_c150_s1,500,150,"SA, greedy",0,199,True,199,0.0,0.6171
+weibull_scaled_n500_c150_s1,500,150,"SA, greedy",1,199,True,199,0.0,0.5026
+weibull_scaled_n500_c150_s1,500,150,"SA, greedy",2,199,True,199,0.0,0.3923
+weibull_scaled_n500_c150_s2,500,150,FFD,0,196,True,195,0.005128205128205128,0.0055
+weibull_scaled_n500_c150_s2,500,150,FFD,1,196,True,195,0.005128205128205128,0.0054
+weibull_scaled_n500_c150_s2,500,150,FFD,2,196,True,195,0.005128205128205128,0.0054
+weibull_scaled_n500_c150_s2,500,150,BFD,0,196,True,195,0.005128205128205128,0.0057
+weibull_scaled_n500_c150_s2,500,150,BFD,1,196,True,195,0.005128205128205128,0.0057
+weibull_scaled_n500_c150_s2,500,150,BFD,2,196,True,195,0.005128205128205128,0.0056
+weibull_scaled_n500_c150_s2,500,150,WFD,0,196,True,195,0.005128205128205128,0.0056
+weibull_scaled_n500_c150_s2,500,150,WFD,1,196,True,195,0.005128205128205128,0.0056
+weibull_scaled_n500_c150_s2,500,150,WFD,2,196,True,195,0.005128205128205128,0.0056
+weibull_scaled_n500_c150_s2,500,150,RFD,0,196,True,195,0.005128205128205128,0.0066
+weibull_scaled_n500_c150_s2,500,150,RFD,1,196,True,195,0.005128205128205128,0.0065
+weibull_scaled_n500_c150_s2,500,150,RFD,2,196,True,195,0.005128205128205128,0.0065
+weibull_scaled_n500_c150_s2,500,150,"Assignment GA, tuned",0,212,False,195,,9.4839
+weibull_scaled_n500_c150_s2,500,150,"Assignment GA, tuned",1,210,False,195,,9.3293
+weibull_scaled_n500_c150_s2,500,150,"Assignment GA, tuned",2,211,False,195,,9.6134
+weibull_scaled_n500_c150_s2,500,150,"Assignment GA, original",0,215,False,195,,6.5589
+weibull_scaled_n500_c150_s2,500,150,"Assignment GA, original",1,215,False,195,,6.5373
+weibull_scaled_n500_c150_s2,500,150,"Assignment GA, original",2,215,False,195,,6.4817
+weibull_scaled_n500_c150_s2,500,150,"Permutation GA, random start",0,199,True,195,0.020512820512820513,223.3477
+weibull_scaled_n500_c150_s2,500,150,"Permutation GA, random start",1,199,True,195,0.020512820512820513,227.9856
+weibull_scaled_n500_c150_s2,500,150,"Permutation GA, random start",2,198,True,195,0.015384615384615385,224.3726
+weibull_scaled_n500_c150_s2,500,150,"Permutation GA, FFD start",0,196,True,195,0.005128205128205128,273.7606
+weibull_scaled_n500_c150_s2,500,150,"Permutation GA, FFD start",1,196,True,195,0.005128205128205128,275.9411
+weibull_scaled_n500_c150_s2,500,150,"Permutation GA, FFD start",2,196,True,195,0.005128205128205128,275.0168
+weibull_scaled_n500_c150_s2,500,150,"SA, cooling",0,196,True,195,0.005128205128205128,1.5857
+weibull_scaled_n500_c150_s2,500,150,"SA, cooling",1,196,True,195,0.005128205128205128,1.5809
+weibull_scaled_n500_c150_s2,500,150,"SA, cooling",2,196,True,195,0.005128205128205128,1.5781
+weibull_scaled_n500_c150_s2,500,150,"SA, greedy",0,195,True,195,0.0,0.6953
+weibull_scaled_n500_c150_s2,500,150,"SA, greedy",1,195,True,195,0.0,1.1981
+weibull_scaled_n500_c150_s2,500,150,"SA, greedy",2,195,True,195,0.0,0.8139
+weibull_scaled_n500_c150_s3,500,150,FFD,0,208,True,207,0.004830917874396135,0.0059
+weibull_scaled_n500_c150_s3,500,150,FFD,1,208,True,207,0.004830917874396135,0.006
+weibull_scaled_n500_c150_s3,500,150,FFD,2,208,True,207,0.004830917874396135,0.0059
+weibull_scaled_n500_c150_s3,500,150,BFD,0,208,True,207,0.004830917874396135,0.0061
+weibull_scaled_n500_c150_s3,500,150,BFD,1,208,True,207,0.004830917874396135,0.0058
+weibull_scaled_n500_c150_s3,500,150,BFD,2,208,True,207,0.004830917874396135,0.006
+weibull_scaled_n500_c150_s3,500,150,WFD,0,208,True,207,0.004830917874396135,0.0058
+weibull_scaled_n500_c150_s3,500,150,WFD,1,208,True,207,0.004830917874396135,0.0062
+weibull_scaled_n500_c150_s3,500,150,WFD,2,208,True,207,0.004830917874396135,0.0064
+weibull_scaled_n500_c150_s3,500,150,RFD,0,208,True,207,0.004830917874396135,0.0071
+weibull_scaled_n500_c150_s3,500,150,RFD,1,208,True,207,0.004830917874396135,0.0071
+weibull_scaled_n500_c150_s3,500,150,RFD,2,208,True,207,0.004830917874396135,0.0072
+weibull_scaled_n500_c150_s3,500,150,"Assignment GA, tuned",0,225,False,207,,9.9689
+weibull_scaled_n500_c150_s3,500,150,"Assignment GA, tuned",1,226,False,207,,9.9622
+weibull_scaled_n500_c150_s3,500,150,"Assignment GA, tuned",2,225,False,207,,10.0753
+weibull_scaled_n500_c150_s3,500,150,"Assignment GA, original",0,228,False,207,,6.8902
+weibull_scaled_n500_c150_s3,500,150,"Assignment GA, original",1,228,False,207,,6.9095
+weibull_scaled_n500_c150_s3,500,150,"Assignment GA, original",2,228,False,207,,6.6715
+weibull_scaled_n500_c150_s3,500,150,"Permutation GA, random start",0,210,True,207,0.014492753623188406,240.7946
+weibull_scaled_n500_c150_s3,500,150,"Permutation GA, random start",1,210,True,207,0.014492753623188406,235.1851
+weibull_scaled_n500_c150_s3,500,150,"Permutation GA, random start",2,210,True,207,0.014492753623188406,239.9221
+weibull_scaled_n500_c150_s3,500,150,"Permutation GA, FFD start",0,207,True,207,0.0,17.0352
+weibull_scaled_n500_c150_s3,500,150,"Permutation GA, FFD start",1,207,True,207,0.0,23.4783
+weibull_scaled_n500_c150_s3,500,150,"Permutation GA, FFD start",2,207,True,207,0.0,16.4501
+weibull_scaled_n500_c150_s3,500,150,"SA, cooling",0,207,True,207,0.0,0.469
+weibull_scaled_n500_c150_s3,500,150,"SA, cooling",1,207,True,207,0.0,0.9049
+weibull_scaled_n500_c150_s3,500,150,"SA, cooling",2,207,True,207,0.0,0.5043
+weibull_scaled_n500_c150_s3,500,150,"SA, greedy",0,207,True,207,0.0,0.3181
+weibull_scaled_n500_c150_s3,500,150,"SA, greedy",1,207,True,207,0.0,0.2217
+weibull_scaled_n500_c150_s3,500,150,"SA, greedy",2,207,True,207,0.0,0.4962
+weibull_scaled_n500_c150_s4,500,150,FFD,0,205,True,203,0.009852216748768473,0.0057
+weibull_scaled_n500_c150_s4,500,150,FFD,1,205,True,203,0.009852216748768473,0.0059
+weibull_scaled_n500_c150_s4,500,150,FFD,2,205,True,203,0.009852216748768473,0.0057
+weibull_scaled_n500_c150_s4,500,150,BFD,0,205,True,203,0.009852216748768473,0.006
+weibull_scaled_n500_c150_s4,500,150,BFD,1,205,True,203,0.009852216748768473,0.0059
+weibull_scaled_n500_c150_s4,500,150,BFD,2,205,True,203,0.009852216748768473,0.0061
+weibull_scaled_n500_c150_s4,500,150,WFD,0,205,True,203,0.009852216748768473,0.006
+weibull_scaled_n500_c150_s4,500,150,WFD,1,205,True,203,0.009852216748768473,0.006
+weibull_scaled_n500_c150_s4,500,150,WFD,2,205,True,203,0.009852216748768473,0.0059
+weibull_scaled_n500_c150_s4,500,150,RFD,0,205,True,203,0.009852216748768473,0.0068
+weibull_scaled_n500_c150_s4,500,150,RFD,1,205,True,203,0.009852216748768473,0.0068
+weibull_scaled_n500_c150_s4,500,150,RFD,2,205,True,203,0.009852216748768473,0.007
+weibull_scaled_n500_c150_s4,500,150,"Assignment GA, tuned",0,219,False,203,,9.7358
+weibull_scaled_n500_c150_s4,500,150,"Assignment GA, tuned",1,220,False,203,,9.8727
+weibull_scaled_n500_c150_s4,500,150,"Assignment GA, tuned",2,221,False,203,,9.7563
+weibull_scaled_n500_c150_s4,500,150,"Assignment GA, original",0,224,False,203,,6.6164
+weibull_scaled_n500_c150_s4,500,150,"Assignment GA, original",1,224,False,203,,6.6008
+weibull_scaled_n500_c150_s4,500,150,"Assignment GA, original",2,224,False,203,,6.6512
+weibull_scaled_n500_c150_s4,500,150,"Permutation GA, random start",0,206,True,203,0.014778325123152709,238.6044
+weibull_scaled_n500_c150_s4,500,150,"Permutation GA, random start",1,206,True,203,0.014778325123152709,234.2045
+weibull_scaled_n500_c150_s4,500,150,"Permutation GA, random start",2,206,True,203,0.014778325123152709,237.3488
+weibull_scaled_n500_c150_s4,500,150,"Permutation GA, FFD start",0,204,True,203,0.0049261083743842365,288.0072
+weibull_scaled_n500_c150_s4,500,150,"Permutation GA, FFD start",1,204,True,203,0.0049261083743842365,289.5464
+weibull_scaled_n500_c150_s4,500,150,"Permutation GA, FFD start",2,204,True,203,0.0049261083743842365,292.4199
+weibull_scaled_n500_c150_s4,500,150,"SA, cooling",0,204,True,203,0.0049261083743842365,1.6268
+weibull_scaled_n500_c150_s4,500,150,"SA, cooling",1,203,True,203,0.0,1.3109
+weibull_scaled_n500_c150_s4,500,150,"SA, cooling",2,204,True,203,0.0049261083743842365,1.5829
+weibull_scaled_n500_c150_s4,500,150,"SA, greedy",0,204,True,203,0.0049261083743842365,1.5717
+weibull_scaled_n500_c150_s4,500,150,"SA, greedy",1,203,True,203,0.0,1.1424
+weibull_scaled_n500_c150_s4,500,150,"SA, greedy",2,203,True,203,0.0,1.417
+weibull_scaled_n500_c150_s5,500,150,FFD,0,200,True,199,0.005025125628140704,0.0058
+weibull_scaled_n500_c150_s5,500,150,FFD,1,200,True,199,0.005025125628140704,0.0055
+weibull_scaled_n500_c150_s5,500,150,FFD,2,200,True,199,0.005025125628140704,0.0058
+weibull_scaled_n500_c150_s5,500,150,BFD,0,200,True,199,0.005025125628140704,0.0059
+weibull_scaled_n500_c150_s5,500,150,BFD,1,200,True,199,0.005025125628140704,0.0059
+weibull_scaled_n500_c150_s5,500,150,BFD,2,200,True,199,0.005025125628140704,0.0058
+weibull_scaled_n500_c150_s5,500,150,WFD,0,200,True,199,0.005025125628140704,0.006
+weibull_scaled_n500_c150_s5,500,150,WFD,1,200,True,199,0.005025125628140704,0.0061
+weibull_scaled_n500_c150_s5,500,150,WFD,2,200,True,199,0.005025125628140704,0.0061
+weibull_scaled_n500_c150_s5,500,150,RFD,0,200,True,199,0.005025125628140704,0.0069
+weibull_scaled_n500_c150_s5,500,150,RFD,1,200,True,199,0.005025125628140704,0.0068
+weibull_scaled_n500_c150_s5,500,150,RFD,2,200,True,199,0.005025125628140704,0.0068
+weibull_scaled_n500_c150_s5,500,150,"Assignment GA, tuned",0,214,False,199,,9.7662
+weibull_scaled_n500_c150_s5,500,150,"Assignment GA, tuned",1,214,False,199,,9.7906
+weibull_scaled_n500_c150_s5,500,150,"Assignment GA, tuned",2,215,False,199,,9.7739
+weibull_scaled_n500_c150_s5,500,150,"Assignment GA, original",0,219,False,199,,6.8044
+weibull_scaled_n500_c150_s5,500,150,"Assignment GA, original",1,219,False,199,,6.7361
+weibull_scaled_n500_c150_s5,500,150,"Assignment GA, original",2,219,False,199,,6.7886
+weibull_scaled_n500_c150_s5,500,150,"Permutation GA, random start",0,202,True,199,0.01507537688442211,235.3912
+weibull_scaled_n500_c150_s5,500,150,"Permutation GA, random start",1,202,True,199,0.01507537688442211,232.4406
+weibull_scaled_n500_c150_s5,500,150,"Permutation GA, random start",2,202,True,199,0.01507537688442211,236.4324
+weibull_scaled_n500_c150_s5,500,150,"Permutation GA, FFD start",0,199,True,199,0.0,152.0685
+weibull_scaled_n500_c150_s5,500,150,"Permutation GA, FFD start",1,200,True,199,0.005025125628140704,286.479
+weibull_scaled_n500_c150_s5,500,150,"Permutation GA, FFD start",2,200,True,199,0.005025125628140704,286.4207
+weibull_scaled_n500_c150_s5,500,150,"SA, cooling",0,199,True,199,0.0,0.9588
+weibull_scaled_n500_c150_s5,500,150,"SA, cooling",1,199,True,199,0.0,1.5467
+weibull_scaled_n500_c150_s5,500,150,"SA, cooling",2,199,True,199,0.0,1.388
+weibull_scaled_n500_c150_s5,500,150,"SA, greedy",0,199,True,199,0.0,0.9419
+weibull_scaled_n500_c150_s5,500,150,"SA, greedy",1,199,True,199,0.0,0.6593
+weibull_scaled_n500_c150_s5,500,150,"SA, greedy",2,199,True,199,0.0,0.9964
+weibull_scaled_n500_c150_s6,500,150,FFD,0,205,True,204,0.004901960784313725,0.0058
+weibull_scaled_n500_c150_s6,500,150,FFD,1,205,True,204,0.004901960784313725,0.0058
+weibull_scaled_n500_c150_s6,500,150,FFD,2,205,True,204,0.004901960784313725,0.0056
+weibull_scaled_n500_c150_s6,500,150,BFD,0,205,True,204,0.004901960784313725,0.0061
+weibull_scaled_n500_c150_s6,500,150,BFD,1,205,True,204,0.004901960784313725,0.0061
+weibull_scaled_n500_c150_s6,500,150,BFD,2,205,True,204,0.004901960784313725,0.0061
+weibull_scaled_n500_c150_s6,500,150,WFD,0,205,True,204,0.004901960784313725,0.0059
+weibull_scaled_n500_c150_s6,500,150,WFD,1,205,True,204,0.004901960784313725,0.006
+weibull_scaled_n500_c150_s6,500,150,WFD,2,205,True,204,0.004901960784313725,0.0059
+weibull_scaled_n500_c150_s6,500,150,RFD,0,205,True,204,0.004901960784313725,0.0069
+weibull_scaled_n500_c150_s6,500,150,RFD,1,205,True,204,0.004901960784313725,0.0068
+weibull_scaled_n500_c150_s6,500,150,RFD,2,205,True,204,0.004901960784313725,0.0069
+weibull_scaled_n500_c150_s6,500,150,"Assignment GA, tuned",0,221,False,204,,10.0109
+weibull_scaled_n500_c150_s6,500,150,"Assignment GA, tuned",1,221,False,204,,10.0254
+weibull_scaled_n500_c150_s6,500,150,"Assignment GA, tuned",2,221,False,204,,10.2494
+weibull_scaled_n500_c150_s6,500,150,"Assignment GA, original",0,225,False,204,,6.6874
+weibull_scaled_n500_c150_s6,500,150,"Assignment GA, original",1,225,False,204,,6.8644
+weibull_scaled_n500_c150_s6,500,150,"Assignment GA, original",2,225,False,204,,6.6851
+weibull_scaled_n500_c150_s6,500,150,"Permutation GA, random start",0,207,True,204,0.014705882352941176,239.9584
+weibull_scaled_n500_c150_s6,500,150,"Permutation GA, random start",1,207,True,204,0.014705882352941176,239.7108
+weibull_scaled_n500_c150_s6,500,150,"Permutation GA, random start",2,207,True,204,0.014705882352941176,236.3059
+weibull_scaled_n500_c150_s6,500,150,"Permutation GA, FFD start",0,204,True,204,0.0,7.1781
+weibull_scaled_n500_c150_s6,500,150,"Permutation GA, FFD start",1,204,True,204,0.0,6.7509
+weibull_scaled_n500_c150_s6,500,150,"Permutation GA, FFD start",2,204,True,204,0.0,5.0258
+weibull_scaled_n500_c150_s6,500,150,"SA, cooling",0,204,True,204,0.0,0.9786
+weibull_scaled_n500_c150_s6,500,150,"SA, cooling",1,204,True,204,0.0,0.8925
+weibull_scaled_n500_c150_s6,500,150,"SA, cooling",2,204,True,204,0.0,0.8838
+weibull_scaled_n500_c150_s6,500,150,"SA, greedy",0,204,True,204,0.0,0.3816
+weibull_scaled_n500_c150_s6,500,150,"SA, greedy",1,204,True,204,0.0,0.597
+weibull_scaled_n500_c150_s6,500,150,"SA, greedy",2,204,True,204,0.0,0.4402
+weibull_scaled_n500_c150_s7,500,150,FFD,0,206,True,205,0.004878048780487805,0.0058
+weibull_scaled_n500_c150_s7,500,150,FFD,1,206,True,205,0.004878048780487805,0.0059
+weibull_scaled_n500_c150_s7,500,150,FFD,2,206,True,205,0.004878048780487805,0.0058
+weibull_scaled_n500_c150_s7,500,150,BFD,0,206,True,205,0.004878048780487805,0.006
+weibull_scaled_n500_c150_s7,500,150,BFD,1,206,True,205,0.004878048780487805,0.0059
+weibull_scaled_n500_c150_s7,500,150,BFD,2,206,True,205,0.004878048780487805,0.0061
+weibull_scaled_n500_c150_s7,500,150,WFD,0,206,True,205,0.004878048780487805,0.0059
+weibull_scaled_n500_c150_s7,500,150,WFD,1,206,True,205,0.004878048780487805,0.0061
+weibull_scaled_n500_c150_s7,500,150,WFD,2,206,True,205,0.004878048780487805,0.006
+weibull_scaled_n500_c150_s7,500,150,RFD,0,206,True,205,0.004878048780487805,0.0068
+weibull_scaled_n500_c150_s7,500,150,RFD,1,206,True,205,0.004878048780487805,0.0068
+weibull_scaled_n500_c150_s7,500,150,RFD,2,206,True,205,0.004878048780487805,0.0071
+weibull_scaled_n500_c150_s7,500,150,"Assignment GA, tuned",0,221,False,205,,9.7384
+weibull_scaled_n500_c150_s7,500,150,"Assignment GA, tuned",1,224,False,205,,10.0094
+weibull_scaled_n500_c150_s7,500,150,"Assignment GA, tuned",2,224,False,205,,9.847
+weibull_scaled_n500_c150_s7,500,150,"Assignment GA, original",0,226,False,205,,6.8488
+weibull_scaled_n500_c150_s7,500,150,"Assignment GA, original",1,226,False,205,,6.6387
+weibull_scaled_n500_c150_s7,500,150,"Assignment GA, original",2,226,False,205,,6.8312
+weibull_scaled_n500_c150_s7,500,150,"Permutation GA, random start",0,209,True,205,0.01951219512195122,239.1378
+weibull_scaled_n500_c150_s7,500,150,"Permutation GA, random start",1,209,True,205,0.01951219512195122,239.7948
+weibull_scaled_n500_c150_s7,500,150,"Permutation GA, random start",2,208,True,205,0.014634146341463415,243.7458
+weibull_scaled_n500_c150_s7,500,150,"Permutation GA, FFD start",0,206,True,205,0.004878048780487805,294.0357
+weibull_scaled_n500_c150_s7,500,150,"Permutation GA, FFD start",1,206,True,205,0.004878048780487805,295.6289
+weibull_scaled_n500_c150_s7,500,150,"Permutation GA, FFD start",2,206,True,205,0.004878048780487805,292.6224
+weibull_scaled_n500_c150_s7,500,150,"SA, cooling",0,205,True,205,0.0,1.2583
+weibull_scaled_n500_c150_s7,500,150,"SA, cooling",1,205,True,205,0.0,1.6399
+weibull_scaled_n500_c150_s7,500,150,"SA, cooling",2,206,True,205,0.004878048780487805,1.5939
+weibull_scaled_n500_c150_s7,500,150,"SA, greedy",0,205,True,205,0.0,1.329
+weibull_scaled_n500_c150_s7,500,150,"SA, greedy",1,205,True,205,0.0,1.3826
+weibull_scaled_n500_c150_s7,500,150,"SA, greedy",2,205,True,205,0.0,1.2423
+weibull_scaled_n500_c150_s8,500,150,FFD,0,201,True,200,0.005,0.0057
+weibull_scaled_n500_c150_s8,500,150,FFD,1,201,True,200,0.005,0.0056
+weibull_scaled_n500_c150_s8,500,150,FFD,2,201,True,200,0.005,0.0055
+weibull_scaled_n500_c150_s8,500,150,BFD,0,201,True,200,0.005,0.0058
+weibull_scaled_n500_c150_s8,500,150,BFD,1,201,True,200,0.005,0.0059
+weibull_scaled_n500_c150_s8,500,150,BFD,2,201,True,200,0.005,0.0059
+weibull_scaled_n500_c150_s8,500,150,WFD,0,201,True,200,0.005,0.0056
+weibull_scaled_n500_c150_s8,500,150,WFD,1,201,True,200,0.005,0.0057
+weibull_scaled_n500_c150_s8,500,150,WFD,2,201,True,200,0.005,0.0058
+weibull_scaled_n500_c150_s8,500,150,RFD,0,201,True,200,0.005,0.0067
+weibull_scaled_n500_c150_s8,500,150,RFD,1,201,True,200,0.005,0.0069
+weibull_scaled_n500_c150_s8,500,150,RFD,2,201,True,200,0.005,0.0067
+weibull_scaled_n500_c150_s8,500,150,"Assignment GA, tuned",0,218,True,200,0.09,10.034
+weibull_scaled_n500_c150_s8,500,150,"Assignment GA, tuned",1,218,True,200,0.09,9.7384
+weibull_scaled_n500_c150_s8,500,150,"Assignment GA, tuned",2,218,False,200,,9.9013
+weibull_scaled_n500_c150_s8,500,150,"Assignment GA, original",0,221,False,200,,6.6034
+weibull_scaled_n500_c150_s8,500,150,"Assignment GA, original",1,221,False,200,,6.5928
+weibull_scaled_n500_c150_s8,500,150,"Assignment GA, original",2,221,False,200,,6.6448
+weibull_scaled_n500_c150_s8,500,150,"Permutation GA, random start",0,203,True,200,0.015,235.0863
+weibull_scaled_n500_c150_s8,500,150,"Permutation GA, random start",1,203,True,200,0.015,234.9303
+weibull_scaled_n500_c150_s8,500,150,"Permutation GA, random start",2,203,True,200,0.015,232.0549
+weibull_scaled_n500_c150_s8,500,150,"Permutation GA, FFD start",0,200,True,200,0.0,100.7929
+weibull_scaled_n500_c150_s8,500,150,"Permutation GA, FFD start",1,200,True,200,0.0,97.604
+weibull_scaled_n500_c150_s8,500,150,"Permutation GA, FFD start",2,201,True,200,0.005,283.5343
+weibull_scaled_n500_c150_s8,500,150,"SA, cooling",0,200,True,200,0.0,0.9627
+weibull_scaled_n500_c150_s8,500,150,"SA, cooling",1,200,True,200,0.0,0.9953
+weibull_scaled_n500_c150_s8,500,150,"SA, cooling",2,200,True,200,0.0,1.1744
+weibull_scaled_n500_c150_s8,500,150,"SA, greedy",0,200,True,200,0.0,0.5105
+weibull_scaled_n500_c150_s8,500,150,"SA, greedy",1,200,True,200,0.0,0.5615
+weibull_scaled_n500_c150_s8,500,150,"SA, greedy",2,200,True,200,0.0,0.7431
+weibull_scaled_n500_c150_s9,500,150,FFD,0,202,True,201,0.004975124378109453,0.0058
+weibull_scaled_n500_c150_s9,500,150,FFD,1,202,True,201,0.004975124378109453,0.0059
+weibull_scaled_n500_c150_s9,500,150,FFD,2,202,True,201,0.004975124378109453,0.0058
+weibull_scaled_n500_c150_s9,500,150,BFD,0,202,True,201,0.004975124378109453,0.006
+weibull_scaled_n500_c150_s9,500,150,BFD,1,202,True,201,0.004975124378109453,0.0058
+weibull_scaled_n500_c150_s9,500,150,BFD,2,202,True,201,0.004975124378109453,0.0059
+weibull_scaled_n500_c150_s9,500,150,WFD,0,203,True,201,0.009950248756218905,0.0059
+weibull_scaled_n500_c150_s9,500,150,WFD,1,203,True,201,0.009950248756218905,0.006
+weibull_scaled_n500_c150_s9,500,150,WFD,2,203,True,201,0.009950248756218905,0.0061
+weibull_scaled_n500_c150_s9,500,150,RFD,0,202,True,201,0.004975124378109453,0.0069
+weibull_scaled_n500_c150_s9,500,150,RFD,1,203,True,201,0.009950248756218905,0.0071
+weibull_scaled_n500_c150_s9,500,150,RFD,2,203,True,201,0.009950248756218905,0.0069
+weibull_scaled_n500_c150_s9,500,150,"Assignment GA, tuned",0,215,False,201,,10.0483
+weibull_scaled_n500_c150_s9,500,150,"Assignment GA, tuned",1,219,True,201,0.08955223880597014,10.19
+weibull_scaled_n500_c150_s9,500,150,"Assignment GA, tuned",2,217,True,201,0.07960199004975124,10.0155
+weibull_scaled_n500_c150_s9,500,150,"Assignment GA, original",0,222,False,201,,6.6128
+weibull_scaled_n500_c150_s9,500,150,"Assignment GA, original",1,222,False,201,,6.7021
+weibull_scaled_n500_c150_s9,500,150,"Assignment GA, original",2,222,False,201,,6.6902
+weibull_scaled_n500_c150_s9,500,150,"Permutation GA, random start",0,204,True,201,0.014925373134328358,231.0066
+weibull_scaled_n500_c150_s9,500,150,"Permutation GA, random start",1,204,True,201,0.014925373134328358,228.1399
+weibull_scaled_n500_c150_s9,500,150,"Permutation GA, random start",2,204,True,201,0.014925373134328358,223.3309
+weibull_scaled_n500_c150_s9,500,150,"Permutation GA, FFD start",0,202,True,201,0.004975124378109453,200.9966
+weibull_scaled_n500_c150_s9,500,150,"Permutation GA, FFD start",1,202,True,201,0.004975124378109453,239.0569
+weibull_scaled_n500_c150_s9,500,150,"Permutation GA, FFD start",2,202,True,201,0.004975124378109453,234.1009
+weibull_scaled_n500_c150_s9,500,150,"SA, cooling",0,201,True,201,0.0,0.9232
+weibull_scaled_n500_c150_s9,500,150,"SA, cooling",1,201,True,201,0.0,1.1051
+weibull_scaled_n500_c150_s9,500,150,"SA, cooling",2,201,True,201,0.0,0.864
+weibull_scaled_n500_c150_s9,500,150,"SA, greedy",0,201,True,201,0.0,0.4402
+weibull_scaled_n500_c150_s9,500,150,"SA, greedy",1,201,True,201,0.0,0.8318
+weibull_scaled_n500_c150_s9,500,150,"SA, greedy",2,201,True,201,0.0,0.6604
