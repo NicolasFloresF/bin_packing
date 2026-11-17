@@ -1,18 +1,50 @@
-[tool.poetry]
-name = "bin_packing"
-version = "0.1.0"
-description = ""
-authors = ["NicolasFloresF <nick.lasff@gmail.com>"]
+[project]
+name = "bin-packing"
+version = "0.2.0"
+description = "Classic one-dimensional bin packing solved by genetic algorithms, simulated annealing and heuristics."
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.12"
-numpy = "^2.1.3"
-matplotlib = "^3.9.2"
-
-[tool.poetry.group.dev.dependencies]
-black = "^24.10.0"
+authors = [{ name = "NicolasFloresF" }]
+requires-python = ">=3.12"
+dependencies = ["numpy>=2.1.3", "matplotlib>=3.9.2"]
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["uv_build>=0.13.8,<0.14"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = ["pyright>=1.1.414", "pytest>=9.1.1", "pytest-cov>=7.1.0", "vulture>=2.16"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "C90", "PL", "S", "N", "ANN0", "ANN2"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = ["S101", "PLR2004"]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 10
+
+[tool.ruff.lint.pylint]
+max-args = 5
+max-branches = 12
+max-returns = 6
+max-statements = 50
+
+[tool.ruff.lint.flake8-annotations]
+mypy-init-return = true
+
+[tool.complexipy]
+max-complexity-allowed = 15
+
+[tool.pyright]
+typeCheckingMode = "standard"
+
+[tool.pytest.ini_options]
+addopts = "--import-mode=importlib --cov=bin_packing --cov-fail-under=80"
+testpaths = ["tests"]
+
+[tool.vulture]
+paths = ["src", "tests"]
+min_confidence = 80

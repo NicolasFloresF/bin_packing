@@ -1,0 +1,59 @@
+# Experiment behind the README results. Generate its instances first:
+#   uv run python -m bin_packing generate --num-items 120 --capacity 150 --count 10 --out data/raw/readme
+#   uv run python -m bin_packing generate --num-items 500 --capacity 150 --count 10 --out data/raw/readme
+# Paths are relative to the directory the command runs from (the repository root).
+
+[experiment]
+instances = "data/raw/readme"
+seeds = 3
+out = "results/readme"
+
+[[solvers]]
+name = "FFD"
+type = "heuristic"
+bin_selection_rule = "first"
+
+[[solvers]]
+name = "BFD"
+type = "heuristic"
+bin_selection_rule = "best"
+
+[[solvers]]
+name = "WFD"
+type = "heuristic"
+bin_selection_rule = "worst"
+
+[[solvers]]
+name = "RFD"
+type = "heuristic"
+bin_selection_rule = "random"
+
+[[solvers]]
+name = "Assignment GA, tuned"
+type = "assignment_ga"
+
+[[solvers]]
+name = "Assignment GA, original"
+type = "assignment_ga"
+mutation_rate = 0.2
+penalty_severity = 1
+offspring_per_generation = 25
+
+[[solvers]]
+name = "Permutation GA, random start"
+type = "permutation_ga"
+
+[[solvers]]
+name = "Permutation GA, FFD start"
+type = "permutation_ga"
+initialization = "ffd_seeded"
+
+[[solvers]]
+name = "SA, cooling"
+type = "simulated_annealing"
+
+[[solvers]]
+name = "SA, greedy"
+type = "simulated_annealing"
+initial_temperature = 1e-9
+final_temperature = 1e-12
