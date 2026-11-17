@@ -74,6 +74,8 @@ def test_convergence_rows_come_only_from_genetic_algorithms(tmp_path: Path) -> N
     assert "AGA" in solvers
     assert results_path.is_file()
     assert plot_convergence(tmp_path / "results") == tmp_path / "results" / "convergence.png"
+    convergence_path.unlink()
+    assert plot_convergence(tmp_path / "results") is None
 
 
 def test_experiment_without_genetic_algorithms_draws_no_convergence(tmp_path: Path) -> None:
