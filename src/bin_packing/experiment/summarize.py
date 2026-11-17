@@ -45,13 +45,14 @@ def summarize_group(rows: list[dict[str, str]], reference_bins: dict[tuple[str, 
     """Returns: list[str]: The table cells for the runs of one solver at one number of items."""
     feasible = [row for row in rows if row["feasible"] == "True"]
     at_bound = sum(1 for row in feasible if row["bins"] == row["lower_bound"])
-    mean_gap = 100 * sum(float(row["gap"]) for row in feasible) / len(feasible) if feasible else float("nan")
+    # Showing a dash when no run was feasible: the gap is only defined for feasible packings.
+    mean_gap = f"{100 * sum(float(row['gap']) for row in feasible) / len(feasible):.2f}%" if feasible else "—"
     mean_seconds = sum(float(row["seconds"]) for row in rows) / len(rows)
     return [
         str(len(rows)),
         str(len(rows) - len(feasible)),
         f"{at_bound}/{len(rows)}",
-        f"{mean_gap:.2f}%",
+        mean_gap,
         compare_with_reference(rows, reference_bins),
         f"{mean_seconds:.3f}",
     ]

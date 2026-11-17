@@ -87,6 +87,15 @@ def test_experiment_without_genetic_algorithms_draws_no_convergence(tmp_path: Pa
     assert (tmp_path / "results" / "summary.md").read_text() == summary
 
 
+def test_summary_shows_a_dash_for_a_solver_without_valid_runs(tmp_path: Path) -> None:
+    header = "instance,num_items,capacity,solver,seed,bins,feasible,lower_bound,gap,seconds\n"
+    runs = "toy,5,10,FFD,0,3,True,2,0.5,0.001\ntoy,5,10,AGA,0,2,False,2,,0.2\n"
+    (tmp_path / "results.csv").write_text(header + runs)
+    summary = summarize_results(tmp_path)
+    assert "| AGA | 1 | 1 | 0/1 | — | 0/0/0 | 0.200 |" in summary
+    assert "| FFD | 1 | 0 | 0/1 | 50.00% | 0/1/0 | 0.001 |" in summary
+
+
 @pytest.mark.parametrize(
     ("solvers", "message"),
     [
